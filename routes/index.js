@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-let  year = new Date().getUTCFullYear();
+let  year = new Date().getUTCFullYear().toString();
 
 
 /* GET home page. */
